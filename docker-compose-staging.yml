@@ -1,0 +1,17 @@
+version: "3"
+services:
+  backend:
+    image: ghcr.io/duyp6090/Yummy-Website-Order-Food:latest
+    container_name: Yummy_Staging
+    restart: always
+    env_file:
+      - .env
+    ports:
+      - "$PORT:$PORT"
+    networks:
+      - yummy
+
+networks:
+  yummy:
+    name: yummy
+    driver: bridge

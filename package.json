@@ -1,0 +1,33 @@
+{
+    "name": "backend",
+    "type": "module",
+    "version": "1.0.0",
+    "description": "backend of my order app",
+    "main": "app.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "nodemon app.js"
+    },
+    "author": "le hoang duc",
+    "license": "ISC",
+    "dependencies": {
+        "@google/generative-ai": "^0.21.0",
+        "cloudinary": "^2.5.0",
+        "cookie-parser": "^1.4.7",
+        "cors": "^2.8.5",
+        "crypto": "^1.0.1",
+        "dotenv": "^16.4.5",
+        "express": "^5.0.0-beta.2",
+        "fs": "^0.0.1-security",
+        "md5": "^2.3.0",
+        "moment": "^2.30.1",
+        "mongoose": "^8.2.2",
+        "mongoose-slug-updater": "^3.3.0",
+        "multer": "^1.4.5-lts.1",
+        "nodemailer": "^6.9.15",
+        "nodemon": "^3.1.0",
+        "qs": "^6.13.1",
+        "socket.io": "^4.8.1",
+        "streamifier": "^0.1.1"
+    }
+}
