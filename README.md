@@ -1,31 +1,28 @@
-
 # 🍔 Yummy - Food Ordering Website
 
 A web-based food ordering platform that allows users to browse restaurants, place orders online, interact with an AI-powered chatbot, and complete payments via integrated VNPay gateways.  
 Built with Express.js and deployed using Docker on DigitalOcean.
 
-
 ## Acknowledgements
 
 - [VNPAY Developer Documentation](https://sandbox.vnpayment.vn/apis/docs/gioi-thieu/)
 - [Gemini AI API Overview](https://ai.google.dev/gemini-api/docs)
+
 ## Appendix
 
 - Demo account for testing:
   - Username: `thithanh@gmail.com`
   - Password: `111111`
 
-
 ## 👥 Authors
 
-| Name              | GitHub                                                   | Role                 |
-|-------------------|-----------------------------------------------------------|----------------------|
-| Phạm Văn Duy       | [@duyp6090](https://github.com/duyp6090)                   | 🛠️ Backend Developer |
-| Lê Hoàng Đức       | [@hoangduccoderdeptrai](https://github.com/hoangduccoderdeptrai) | 🛠️ Backend Developer |
-| Lê Minh Khôi       | [@LewingKai](https://github.com/LewingKai)                 | 🎨 Frontend Developer |
-| Nguyễn Công Bá     | [@nguyenba16](https://github.com/nguyenba16)               | 🎨 Frontend Developer |
-| Nguyễn Quang Đăng  | [@dangnguyenquang](https://github.com/dangnguyenquang)     | 🎨 Frontend Developer |
-
+| Name              | GitHub                                                           | Role                  |
+| ----------------- | ---------------------------------------------------------------- | --------------------- |
+| Phạm Văn Duy      | [@duyp6090](https://github.com/duyp6090)                         | 🛠️ Backend Developer  |
+| Lê Hoàng Đức      | [@hoangduccoderdeptrai](https://github.com/hoangduccoderdeptrai) | 🛠️ Backend Developer  |
+| Lê Minh Khôi      | [@LewingKai](https://github.com/LewingKai)                       | 🎨 Frontend Developer |
+| Nguyễn Công Bá    | [@nguyenba16](https://github.com/nguyenba16)                     | 🎨 Frontend Developer |
+| Nguyễn Quang Đăng | [@dangnguyenquang](https://github.com/dangnguyenquang)           | 🎨 Frontend Developer |
 
 ## 🏷️ Badges
 
@@ -38,16 +35,16 @@ Built with Express.js and deployed using Docker on DigitalOcean.
 [![React](https://img.shields.io/badge/Library-React-blue?logo=react&logoColor=white)](https://reactjs.org/)
 [![Tailwind CSS](https://img.shields.io/badge/CSS-Tailwind%20CSS-06B6D4?logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
 
-
 ## Demo
 
 🎥 [Watch the live demo on YouTube](https://www.youtube.com/watch?v=2pP5y-h9BRE)
 
-## 🚀 Deployment
+## 🚀 Deployment for local
 
 To deploy this project, follow these steps:
 
 1. **Backend**:
+
    - Install dependencies:
      ```bash
      npm install
@@ -76,20 +73,20 @@ To deploy this project, follow these steps:
      ```
 
 ### Environment Variables:
-To obtain the necessary environment variables for both the backend and frontend, please contact [duyp6090@gmail.com](mailto:duyp6090@gmail.com).
 
+To obtain the necessary environment variables for both the backend and frontend, please contact [duyp6090@gmail.com](mailto:duyp6090@gmail.com).
 
 ## Features
 
 - **🤖 Interactive AI Chatbot**  
   • Real‑time admin–user chat via **Socket.IO**  
-  • Powered by **Gemini API** for dynamic, context-aware responses  
+  • Powered by **Gemini API** for dynamic, context-aware responses
 - **🛡️ Secure Authentication**  
-  • JSON Web Tokens (JWT) for login/register and access control  
+  • JSON Web Tokens (JWT) for login/register and access control
 - **💳 Online Payments**  
-  • Integrated with **VNPAY API** for fast, reliable transactions  
+  • Integrated with **VNPAY API** for fast, reliable transactions
 - **⚙️ Scalable Backend**  
   • Built with **Express.js**, containerized with **Docker**  
   • Deployed on **DigitalOcean**
 - **🎨 Modern Frontend**  
-  • Developed in **React.js** using **Material‑UI** & **Tailwind CSS**  
+  • Developed in **React.js** using **Material‑UI** & **Tailwind CSS**
