@@ -21,25 +21,20 @@ app.use(express.static("public"));
 
 let whileListAllow = ["https://vnueats.com", "http://localhost:5173"];
 let corsOptions = {
-    origin: function (origin, callback) {
-        if (whileListAllow.indexOf(origin) !== -1) {
-            callback(null, true);
-        } else {
-            callback(new Error("Not allowed by CORS"));
-        }
-    },
-    credentials: true,
+  origin: function (origin, callback) {
+    if (whileListAllow.indexOf(origin) !== -1) {
+      callback(null, true);
+    } else {
+      callback(new Error("Not allowed by CORS"));
+    }
+  },
+  credentials: true,
 };
 
-app.use(
-    cors({
-        origin: "http://localhost:5173",
-        credentials: true,
-    })
-);
+app.use(cors());
 
 const server = http.createServer(app);
-initSocket(server); //Initalize io
+initSocket(server); //Init io
 
 // Use API
 webInitRouterSeller(app); // Seller
@@ -49,12 +44,12 @@ webInitRouterUser(app); // User
 
 // Connect to DB
 (async () => {
-    try {
-        await connect(process.env.URI);
-        server.listen(3000, () => {
-            console.log("server is listening");
-        });
-    } catch (err) {
-        console.error("Failed to start the server:", err);
-    }
+  try {
+    await connect(process.env.URI);
+    server.listen(3000, () => {
+      console.log("server is listening");
+    });
+  } catch (err) {
+    console.error("Failed to start the server:", err);
+  }
 })();

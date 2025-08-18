@@ -1,0 +1,25 @@
+name: Setup Node Environment
+
+on:
+  workflow_call:
+    inputs:
+      node-version:
+        description: 'Node.js version to use'
+        required: true
+        type: string
+        default: '20.x'
+
+jobs:
+  setup:
+    runs-on: ubuntu-latest
+    steps:
+      - name: pull code to virtual environment
+        uses: action/checkout@v4
+        with:
+          fetch-depth: 0 # fetch all commit in all branch
+      - name: set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: ${{ inputs.node-version }}
+          cache: 'npm'
+      - run: npm ci
