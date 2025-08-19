@@ -89,8 +89,8 @@ jobs:
           username: ${{ secrets.STAGING_USERNAME }}
           key: ${{ secrets.STAGING_KEY }}
           source: |
-            .env
-            docker-compose-staging.yml
+            ../../.env
+            ../../docker-compose-staging.yml
           target: ~/yummy  
 
       - name: Deploy to staging
