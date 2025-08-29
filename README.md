@@ -2,6 +2,7 @@
 
 A web-based food ordering platform that allows users to browse restaurants, place orders online, interact with an AI-powered chatbot, and complete payments via integrated VNPay gateways.  
 Built with Express.js and implmented CI/CD with DigitalOcean cloud platform.
+Integrate Socket.io to notice owner restaurant when user create orders.
 
 ## Acknowledgements
 
