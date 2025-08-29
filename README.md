@@ -1,7 +1,7 @@
 # 🍔 Yummy - Food Ordering Website
 
 A web-based food ordering platform that allows users to browse restaurants, place orders online, interact with an AI-powered chatbot, and complete payments via integrated VNPay gateways.  
-Built with Express.js and deployed using Docker on DigitalOcean.
+Built with Express.js and implmented CI/CD with DigitalOcean cloud platform.
 
 ## Acknowledgements
 
