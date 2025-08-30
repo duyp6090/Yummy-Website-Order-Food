@@ -1,9 +1,22 @@
 # 🍔 Yummy - Food Ordering Website
 
-A web-based food ordering platform that allows users to browse restaurants, place orders online, interact with an AI-powered chatbot, and complete payments via integrated VNPay gateways.  
-Built with Express.js and implmented CI/CD with DigitalOcean cloud platform.
-Integrate Socket.io to notice owner restaurant when user create orders.
+A web-based food ordering platform that allows users to browse restaurants, place orders online, interact with an AI-powered chatbot, and complete payments via integrated VNPay gateways.
 
+## 🚀 Technologies & Deployment
+
+* **Front-end**: ReactJS
+* **Back-end**: Express.js
+* **Database**: MongoDB
+* **Deployment**: CI/CD automation on DigitalOcean cloud platform.
+
+---
+
+## ✨ Key Features
+
+* **Flexible Ordering**: Browse a list of restaurants and create orders with a few clicks.
+* **Secure Payments**: Integrated VNPay gateway for convenient and secure transactions.
+* **Smart Support**: An AI chatbot assists users with questions and order-related inquiries.
+* **Real-time Notifications**: Utilizes **Socket.io** to instantly notify restaurant owners of new orders.
 ## Acknowledgements
 
 - [VNPAY Developer Documentation](https://sandbox.vnpayment.vn/apis/docs/gioi-thieu/)
