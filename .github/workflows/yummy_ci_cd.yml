@@ -119,7 +119,7 @@ jobs:
 
             cd yummy
 
-            docker-compose -f docker-compose-staging.yml up -d  --remove-orphans --force-recreate
+            docker compose -f docker-compose-staging.yml up -d  --remove-orphans --force-recreate
 
             docker image prune -f
 

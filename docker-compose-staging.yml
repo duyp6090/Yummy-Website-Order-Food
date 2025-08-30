@@ -1,7 +1,7 @@
 version: "3"
 services:
   backend:
-    image: ghcr.io/duyp6090/Yummy-Website-Order-Food:latest
+    image: ghcr.io/duyp6090/yummy-website-order-food:latest
     container_name: Yummy_Staging
     restart: always
     env_file:
